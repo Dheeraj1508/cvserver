@@ -13,11 +13,12 @@ const options = {
 
 app.get('/', (req, res) => {
 
-    getColors(path.join(__dirname, 'image.jpg'),options).then(colors => {
-        res.send(colors)
+    // getColors(path.join(__dirname, 'image.jpg'),options).then(colors => {
+    //     res.send(colors)
         
     
-    })
+    // })
+    res.send('This is working')
     
   
 })
