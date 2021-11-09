@@ -19,7 +19,7 @@ app.get('/', (req, res) => {
     
     // })
     res.send('Working')
-    console.log(res);
+    console.log(req.params);
     
   
 })
