@@ -11,7 +11,7 @@ const options = {
 }
 
 
-app.post('/api', (req, res) => {
+app.get('/api', (req, res) => {
 
     // getColors(path.join(__dirname, 'image.jpg'),options).then(colors => {
     //     res.send(colors)
