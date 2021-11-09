@@ -19,7 +19,7 @@ app.get('/api', (req, res) => {
     
     // })
     res.send('Working')
-    console.log(req.config);
+    console.log(req);
 
     
   
