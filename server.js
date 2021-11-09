@@ -19,8 +19,8 @@ app.get('/api', (req, res) => {
     
     // })
     res.send('Working')
-    console.log(req);
-    console.log(req.body);
+    console.log(req.config);
+
     
   
 })
