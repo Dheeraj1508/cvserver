@@ -30,7 +30,7 @@ app.post('/api', (req, res) => {
     
   
 })
-app.get('/getapi', (req, res) => {
+app.get('/getapi/:b64', (req, res) => {
 
     // getColors(path.join(__dirname, 'image.jpg'),options).then(colors => {
     //     res.send(colors)
@@ -38,7 +38,7 @@ app.get('/getapi', (req, res) => {
     
     // })
     res.send('Get Working')
-    console.log(req);
+    console.log(req.params.b64);
 
     
   
