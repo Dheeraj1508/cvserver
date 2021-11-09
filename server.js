@@ -30,6 +30,19 @@ app.post('/api', (req, res) => {
     
   
 })
+app.get('/getapi', (req, res) => {
+
+    // getColors(path.join(__dirname, 'image.jpg'),options).then(colors => {
+    //     res.send(colors)
+        
+    
+    // })
+    res.send('Get Working')
+    console.log(req);
+
+    
+  
+})
 
 
 
